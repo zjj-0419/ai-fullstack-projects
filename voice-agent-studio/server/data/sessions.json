@@ -1,0 +1,52 @@
+[
+  {
+    "id": "call_1048",
+    "speaker": "Creator onboarding",
+    "transcript": "I want to turn my three minute voice note into a reusable publishing skill.",
+    "intent": "create_skill",
+    "confidence": 0.94,
+    "sentiment": "focused",
+    "latency": 386,
+    "status": "ready",
+    "createdAt": "2026-08-18T09:10:00.000Z",
+    "runs": [
+      {
+        "id": "run_seed_1",
+        "createdAt": "2026-08-18T09:12:00.000Z",
+        "status": "completed",
+        "steps": [
+          { "name": "extract goal", "status": "completed", "output": "Convert voice note into a publishable Skill." },
+          { "name": "draft skill.md", "status": "completed", "output": "Generated markdown structure and trigger rules." },
+          { "name": "run publish checklist", "status": "completed", "output": "No blocking issues." }
+        ]
+      }
+    ],
+    "notes": ["Good onboarding example for Skill creation."]
+  },
+  {
+    "id": "call_1051",
+    "speaker": "Team workspace",
+    "transcript": "Can you summarize this voice brainstorm and assign tasks to the product team?",
+    "intent": "summarize_and_assign",
+    "confidence": 0.88,
+    "sentiment": "busy",
+    "latency": 442,
+    "status": "review",
+    "createdAt": "2026-08-18T09:20:00.000Z",
+    "runs": [],
+    "notes": ["Needs workspace permission confirmation before task creation."]
+  },
+  {
+    "id": "call_1057",
+    "speaker": "Skill publisher",
+    "transcript": "Check whether this Skill is safe to publish and tell me what is missing.",
+    "intent": "publish_review",
+    "confidence": 0.91,
+    "sentiment": "careful",
+    "latency": 413,
+    "status": "ready",
+    "createdAt": "2026-08-18T09:30:00.000Z",
+    "runs": [],
+    "notes": []
+  }
+]
