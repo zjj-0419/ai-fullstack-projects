@@ -1,0 +1,15 @@
+body { margin: 0; background: #f7f4ef; color: #202126; font-family: Inter, Arial, sans-serif; }
+main { max-width: 1120px; margin: 0 auto; padding: 32px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+header p { color: #8b3d2f; font-weight: 800; margin: 0; }
+h1 { font-size: 40px; margin: 6px 0 0; }
+button { display: inline-flex; gap: 8px; align-items: center; border: 0; border-radius: 8px; background: #202126; color: white; padding: 12px 16px; font-weight: 800; }
+.workspace { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 28px; }
+textarea { min-height: 190px; border: 1px solid #d7cdc0; border-radius: 8px; padding: 16px; font: inherit; resize: vertical; background: white; }
+.report { margin-top: 22px; background: white; border: 1px solid #d7cdc0; border-radius: 8px; padding: 22px; }
+.meter { display: inline-flex; align-items: center; gap: 8px; color: #2f6f62; font-weight: 900; }
+.columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px; }
+article { border-top: 3px solid #202126; padding-top: 10px; }
+span { display: inline-block; margin: 4px; padding: 7px 10px; background: #eef3f0; border-radius: 6px; }
+.question { padding: 10px 0; border-bottom: 1px solid #eee6dc; }
+@media (max-width: 780px) { header, .workspace, .columns { display: grid; grid-template-columns: 1fr; } h1 { font-size: 30px; } }
