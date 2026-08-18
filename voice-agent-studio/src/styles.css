@@ -1,0 +1,27 @@
+body { margin: 0; background: #f4f7f8; color: #162326; font-family: Inter, Arial, sans-serif; }
+main { max-width: 1240px; margin: 0 auto; padding: 32px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+header p { margin: 0; color: #2d6d72; font-weight: 900; }
+h1 { margin: 6px 0 0; font-size: 42px; }
+button { border: 0; border-radius: 8px; cursor: pointer; font: inherit; }
+header button { display: inline-flex; align-items: center; gap: 8px; background: #162326; color: white; padding: 12px 18px; font-weight: 800; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 28px; }
+.metric { background: white; border: 1px solid #d5e0e2; border-radius: 8px; padding: 16px; display: grid; gap: 8px; }
+.metric svg { color: #2d6d72; }
+.metric span { color: #66757a; }
+.metric strong { font-size: 28px; }
+.layout { display: grid; grid-template-columns: 260px 1fr 360px; gap: 16px; margin-top: 18px; align-items: start; }
+aside, .panel { background: white; border: 1px solid #d5e0e2; border-radius: 8px; padding: 16px; }
+.session { width: 100%; text-align: left; background: transparent; padding: 13px; border-radius: 8px; display: grid; gap: 5px; color: #273438; }
+.session span { color: #6b787c; }
+.session.active { background: #e7f0f0; }
+.panelHeader { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.panelHeader span, .analysis span { background: #e7f0f0; border-radius: 6px; padding: 6px 8px; color: #2d6d72; font-weight: 800; display: inline-block; margin: 4px; }
+.transcript { background: #f4f7f8; border-radius: 8px; padding: 14px; line-height: 1.55; }
+.timeline { display: grid; gap: 10px; }
+.timeline article { display: grid; grid-template-columns: 28px 1fr; gap: 10px; border-top: 1px solid #e7ecee; padding-top: 12px; }
+.timeline p { margin: 4px 0 0; color: #66757a; }
+.qa textarea { width: 100%; min-height: 110px; box-sizing: border-box; border: 1px solid #cbd8da; border-radius: 8px; padding: 12px; font: inherit; resize: vertical; }
+.analysis { margin: 12px 0; padding: 12px; border-radius: 8px; background: #f4f7f8; }
+.loading { color: #66757a; }
+@media (max-width: 980px) { .metrics, .layout { grid-template-columns: 1fr; } h1 { font-size: 31px; } header { display: grid; } }
