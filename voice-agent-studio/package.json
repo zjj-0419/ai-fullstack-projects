@@ -7,7 +7,8 @@
     "dev": "concurrently \"npm:server\" \"npm:client\"",
     "server": "node server/index.js",
     "client": "vite --host 127.0.0.1 --port 5176",
-    "build": "vite build"
+    "build": "vite build",
+    "test:api": "node server/api-smoke-test.js"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",
