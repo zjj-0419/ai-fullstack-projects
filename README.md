@@ -1,12 +1,14 @@
 # AI Fullstack Project Portfolio
 
-Three portfolio-ready AI fullstack projects tailored to a React + Node role that values AI-assisted product thinking, Skill creation, and end-to-end delivery.
+Five portfolio-ready AI fullstack projects tailored to a React + Node role that values AI-assisted product thinking, Skill creation, voice product workflows, and end-to-end delivery.
 
 ## Projects
 
 - `viceme-skill-forge`: AI Skill authoring and publish workflow simulator.
 - `ai-interview-copilot`: Job description to resume matching assistant.
 - `voice-product-analytics`: Voice product analytics and experiment dashboard.
+- `voice-agent-studio`: Voice agent console for intent routing, tool calls, and QA review.
+- `skill-marketplace-admin`: Skill marketplace operations console for review, rollout, and metrics.
 
 Each project uses React, Vite, Node.js, and Express. The AI behavior is implemented with deterministic mock services so the projects run without paid API keys, while the code structure leaves a clear place to connect a real LLM provider.
 
