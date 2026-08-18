@@ -1,0 +1,30 @@
+body { margin: 0; background: #f6f7f2; color: #23251d; font-family: Inter, Arial, sans-serif; }
+main { max-width: 1220px; margin: 0 auto; padding: 32px; }
+header { display: flex; justify-content: space-between; gap: 18px; align-items: center; }
+header p { margin: 0; color: #6b5f22; font-weight: 900; }
+h1 { font-size: 42px; margin: 6px 0 0; }
+button { font: inherit; cursor: pointer; border: 0; border-radius: 8px; }
+.actions { display: flex; gap: 10px; }
+.actions button { display: inline-flex; align-items: center; gap: 8px; background: #23251d; color: white; padding: 12px 16px; font-weight: 800; }
+.actions .secondary { background: #6b5f22; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 28px; }
+.metric, .table, .review, .experiments { background: white; border: 1px solid #dedeca; border-radius: 8px; padding: 16px; }
+.metric { display: grid; gap: 8px; }
+.metric svg { color: #6b5f22; }
+.metric span { color: #727468; }
+.metric strong { font-size: 28px; }
+.workspace { display: grid; grid-template-columns: 1fr 360px; gap: 16px; margin-top: 18px; align-items: start; }
+.row { width: 100%; display: grid; grid-template-columns: 1.5fr 0.8fr 0.5fr 0.5fr; gap: 12px; align-items: center; text-align: left; background: transparent; padding: 13px; border-radius: 8px; color: #23251d; }
+.row.head { font-weight: 900; color: #727468; border-bottom: 1px solid #ededdf; border-radius: 0; }
+.row.active { background: #f0f0df; }
+small { display: block; color: #727468; margin-top: 4px; }
+.recommendation { background: #f6f7f2; border-radius: 8px; padding: 12px; }
+.check { display: flex; gap: 8px; align-items: center; padding: 9px 0; color: #9a6a33; }
+.check.pass { color: #2f745c; }
+.rollout { border-left: 3px solid #6b5f22; padding-left: 10px; color: #595b51; }
+.experiments { margin-top: 18px; }
+.experiments article { display: grid; grid-template-columns: 1fr 1fr 80px; gap: 12px; padding: 12px 0; border-top: 1px solid #ededdf; }
+.experiments span { color: #727468; }
+.experiments b { color: #2f745c; }
+.loading { color: #727468; }
+@media (max-width: 900px) { header, .metrics, .workspace, .experiments article { display: grid; grid-template-columns: 1fr; } h1 { font-size: 31px; } .row { grid-template-columns: 1fr 90px; } }
